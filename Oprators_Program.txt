@@ -1,0 +1,51 @@
+public class OperatorExample {
+    public static void main(String[] args) {
+        // Arithmetic operators
+        int num1 = 10;
+        int num2 = 3;
+
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        int remainder = num1 % num2;
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+        System.out.println("Remainder: " + remainder);
+
+        // Relational operators
+        boolean isEqual = num1 == num2;
+        boolean isNotEqual = num1 != num2;
+        boolean isGreaterThan = num1 > num2;
+        boolean isLessThanOrEqual = num1 <= num2;
+
+        System.out.println("Is Equal? " + isEqual);
+        System.out.println("Is Not Equal? " + isNotEqual);
+        System.out.println("Is Greater Than? " + isGreaterThan);
+        System.out.println("Is Less Than or Equal? " + isLessThanOrEqual);
+
+        // Logical operators
+        boolean condition1 = true;
+        boolean condition2 = false;
+
+        boolean andResult = condition1 && condition2;
+        boolean orResult = condition1 || condition2;
+        boolean notResult = !condition1;
+
+        System.out.println("Logical AND: " + andResult);
+        System.out.println("Logical OR: " + orResult);
+        System.out.println("Logical NOT: " + notResult);
+
+        // Assignment operators
+        int x = 5;
+
+        x += 3; // Equivalent to x = x + 3;
+        System.out.println("Updated x: " + x);
+
+        x *= 2; // Equivalent to x = x * 2;
+        System.out.println("Updated x: " + x);
+    }
+}
